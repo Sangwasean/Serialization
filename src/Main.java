@@ -5,7 +5,7 @@ public class Main {
     public static void main(String[] args) throws IOException {
         User user1=new User();
         user1.name="sean";
-        user1.password="Kdsean11@gmail.com";
+        user1.password="pass123@gmail.com";
         FileOutputStream fout=new FileOutputStream("object.ser");
         ObjectOutputStream obj=new ObjectOutputStream(fout);
         obj.writeObject(user1);
